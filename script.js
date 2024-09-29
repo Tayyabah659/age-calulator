@@ -7,7 +7,6 @@ function calculateAge() {
     let months = today.getMonth() - birthdate.getMonth();
     let days = today.getDate() - birthdate.getDate();
 
-   
     if (months < 0 || (months === 0 && days < 0)) {
       years--;
       months += 12; 
